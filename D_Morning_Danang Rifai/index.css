@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 70px;
+  font-family: 'lato';
+  line-height: 0;
+}
+h3 {
+  font-size: 20px;
+  font-family: 'commissioner';
+}
+
+h2 {
+  font-size: 20px;
+  font-family: 'commissioner';
+}
+h4 {
+  font-size: 20px;
+  font-family: 'commissioner';
+  padding: 5% 10%;
+}
+p {
+  font-family: 'lato';
+  /* padding-top: 20%; */
+}
+a {
+  color: black;
+}
+
+/* Landing Page */
+#landingPage {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+}
+.nav {
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav li {
+  /* display: inline-block; */
+  /* padding: 0px 15px; */
+}
+
+.nav li a {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: 'commissioner';
+  color: black;
+  cursor: pointer;
+}
+
+.title {
+  vertical-align: middle;
+  text-align: left;
+  max-width: 30%;
+}
+
+.saya {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  margin-right: 100px;
+}
+
+.tengah {
+  padding-top: 12%;
+  display: flex;
+  justify-content: center;
+}
